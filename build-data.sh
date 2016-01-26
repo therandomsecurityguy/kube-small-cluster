@@ -100,11 +100,11 @@ function createTemplates {
   for ip in $(seq $(($d)) $(($NUMBER_NODES+$d-1)));do
     NODE_NAME=$NODE_NAME_PATTERN-$count
     NODE_IP=$a.$b.$c.$ip  
-    TEMPLATE=$(cat ./worker.config)
+    TEMPLATE=$(cat ./worker.yaml)
 
     if [ "$count" -eq "1" ]; then
       echo "adding master config manifests..."
-      TEMPLATE=$(cat ./master.config)
+      TEMPLATE=$(cat ./master.yaml)
     fi
 
     while IFS= read -r line ; do
