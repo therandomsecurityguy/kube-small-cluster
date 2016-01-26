@@ -1,5 +1,5 @@
 # kubernetes-small-cluster
-Kubernetes small cluster build for running on single NIC baremetal systems such as [Intel NUC](www.intel.com/content/www/us/en/nuc/overview.html) or (Gigabyte Brix)(http://www.gigabyte.us/brix/2015brix/) 
+Kubernetes small cluster build for running on single NIC baremetal systems such as [Intel NUC](www.intel.com/content/www/us/en/nuc/overview.html) or [Gigabyte Brix](http://www.gigabyte.us/brix/2015brix/) 
 
 Based on https://github.com/coreos/coreos-kubernetes
 
