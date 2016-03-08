@@ -2,7 +2,7 @@
 set -e
 
 # Specify the version (vX.Y.Z) of Kubernetes assets to deploy
-export K8S_VER=v1.1.4
+export K8S_VER=v1.1.8
 export HYPERKUBE_IMAGE=gcr.io/google_containers/hyperkube
 
 # The CIDR network to use for pod IPs.
