@@ -1,4 +1,4 @@
-#cloud-config # https://coreos.com/os/docs/latest/cloud-config.html
+#!cloud-config # https://coreos.com/os/docs/latest/cloud-config.html
 ---
 
 hostname: ${NODE_NAME}
